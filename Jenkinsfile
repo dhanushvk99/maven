@@ -1,5 +1,5 @@
 
-node('mvn') {
+node() {
 // Delete the workspace
 //deleteDir()
 stage('Retrieve source code') {
